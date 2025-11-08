@@ -26,7 +26,7 @@ All notebooks are reproducible, open-source, and include commentary for interpre
 - **Goal:** Model how quarterback decision time impacts accuracy beyond expected completion percentage.
 - **Techniques:** Simple and multiple linear regression; residual and leverage diagnostics.
 - **Key Insight:** Identifies efficiency thresholds by quarterback archetype.
-- **Tools:** `statsmodels`, `numpy`, `seaborn`
+- **Tools:** `ggplot`, `tidyverse`, `nflplotR`
 
 ---
 
@@ -34,7 +34,7 @@ All notebooks are reproducible, open-source, and include commentary for interpre
 - **Goal:** Forecast fantasy RB performance using rushing attempts, targets, and efficiency stats.
 - **Techniques:** Multiple Linear Regression (MLR), VIF multicollinearity testing.
 - **Key Insight:** Visualizes which stats most strongly drive fantasy point production.
-- **Tools:** `pandas`, `matplotlib`, `sklearn`, `r2_score`
+- **Tools:** `car`, `broom`, `tidyverse`, `dplyr`
 
 ### 4. **NBA Poisson Regression & Expected Value Dashboard**
 - **Goal:** Predict NBA player **Points + Rebounds + Assists (PRA)** totals using a Poisson regression model, incorporating recent game performance and betting odds.
@@ -56,7 +56,7 @@ All notebooks are reproducible, open-source, and include commentary for interpre
 
 | Category | Tools / Languages |
 |-----------|-------------------|
-| Programming | Python (pandas, scikit-learn, statsmodels), R (tidyverse, caret, dplyr)|
+| Programming | Python (pandas, scikit-learn, statsmodels), R (tidyverse, car, dplyr)|
 | Visualization | Matplotlib, Seaborn, ggplot, shiny |
 | Environment | Jupyter Notebooks |
 | Version Control | Git & GitHub |
